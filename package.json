@@ -4,6 +4,7 @@
   "description": "",
   "main": "./src/index.js",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "start": "cross-env NODE_ENV=prop npm run build:watch && cd dist && node ./index.js",
     "build": "cross-env NODE_ENV=prop npm run lint && tsc --project tsconfig.json && tsc-alias -p tsconfig.json",
     "build:watch": "cross-env NODE_ENV=prop npm run lint && tsc -watch --project tsconfig.json && tsc-alias -p tsconfig.json",
