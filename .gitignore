@@ -1,6 +1,5 @@
 dist
 node_modules
-build
-output
 coverage
-.eslintcache
+.nyc_output
+*.log
