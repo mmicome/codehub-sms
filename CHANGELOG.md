@@ -1,4 +1,4 @@
-# codehub-microserve-sms
+# @microserves/codehub-sms
 
 ## 2.0.0
 
