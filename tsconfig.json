@@ -6,54 +6,30 @@
     "outDir": "./dist",
     "baseUrl": ".",
     "sourceMap": true,
-    "moduleResolution":"node",
+    "moduleResolution": "node",
     "esModuleInterop": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true,
     "paths": {
-      "@config/*": [
-        "src/config/*"
-      ],
-      "@constants/*": [
-        "src/constants/*"
-      ],
-      "@controller/*": [
-        "src/controller/*"
-      ],
-      "@database/*": [
-        "src/database/*"
-      ],
-      "@lib/*": [
-        "src/lib/*"
-      ],
-      "@logs/*": [
-        "src/logs/*"
-      ],
-      "@middleware/*": [
-        "src/middleware/*"
-      ],
-      "@model/*": [
-        "src/model/*"
-      ],
-      "@router/*": [
-        "src/router/*"
-      ],
-      "@test/*": [
-        "src/test/*"
-      ],
-      "@utils/*": [
-        "src/utils/*"
-      ],
-      "@validator/*": [
-        "src/validator/*"
-      ],
+      "@config/*": ["src/config/*"],
+      "@constants/*": ["src/constants/*"],
+      "@controller/*": ["src/controller/*"],
+      "@database/*": ["src/database/*"],
+      "@lib/*": ["src/lib/*"],
+      "@logs/*": ["src/logs/*"],
+      "@middleware/*": ["src/middleware/*"],
+      "@model/*": ["src/model/*"],
+      "@router/*": ["src/router/*"],
+      "@test/*": ["src/test/*"],
+      "@utils/*": ["src/utils/*"],
+      "@validator/*": ["src/validator/*"],
+      "@typing/*": ["typing/*"]
     }
   },
   "tsc-alias": {
-    "verbose": false,
+    "verbose": false
   },
-  "types": ["mocha"],
   "include": ["./**/*.ts", "./**/*.js"],
   "exclude": ["node_modules", "dist"]
 }
